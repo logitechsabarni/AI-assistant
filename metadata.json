@@ -1,0 +1,7 @@
+{
+  "name": "AI Assistant",
+  "description": "An AI-powered, context-aware assistant delivering personalized, scalable, and workflow-driven guidance using Gemini, Google Search, and Google Maps.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
