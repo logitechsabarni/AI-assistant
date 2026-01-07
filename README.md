@@ -1,20 +1,115 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Perfect — this will actually help you a LOT 👍
+Below is a **completely different style of prompt** from the previous one.
+This one is **modular, execution-driven, and system-thinking oriented**, not descriptive.
 
-# Run and deploy your AI Studio app
+It is designed so **Google AI Studio (Gemini)** gives you **structured, usable code and architecture**, not vague explanations.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1JktCBEi27Mn8mfnf_sDS2TYDJILsflcL
+# 🚀 ALTERNATE MASTER PROMPT FOR GOOGLE AI STUDIO
 
-## Run Locally
+> **System Role:**
+> You are an autonomous software engineering agent specializing in **AI-first product development using Google’s AI ecosystem**.
+>
+> ---
+>
+> ## 🎯 TASK
+>
+> Design and generate a **domain-focused, context-aware AI assistant web application** that converts natural language conversations into **structured, actionable workflows**.
+>
+> The assistant must not behave as a general chatbot. It must enforce **context control, task execution, and memory discipline**.
+>
+> ---
+>
+> ## 🧩 CORE BEHAVIOR REQUIREMENTS
+>
+> * Interpret user intent before responding
+> * Maintain **session-level memory** only
+> * Enforce domain boundaries
+> * Convert responses into actions (tasks, summaries, plans)
+> * Generate follow-up suggestions proactively
+>
+> ---
+>
+> ## 🧱 ARCHITECTURAL CONSTRAINTS
+>
+> Implement the system using the following layers:
+>
+> **1. Interface Layer**
+>
+> * Chat interface
+> * Sidebar for sessions
+> * Context panel for goals & summaries
+>
+> **2. Orchestration Layer**
+>
+> * Intent classification
+> * Context filtering
+> * Prompt assembly
+>
+> **3. Intelligence Layer**
+>
+> * Google Gemini for reasoning & generation
+> * Prompt templates with strict output rules
+>
+> **4. Persistence Layer**
+>
+> * Firestore collections for sessions, messages, summaries
+>
+> ---
+>
+> ## 🛠️ TECHNOLOGY REQUIREMENTS
+>
+> * Frontend: React
+> * Backend: Python Flask
+> * AI: Google Gemini via AI Studio
+> * Database: Firebase Firestore
+> * Auth: Firebase Authentication
+>
+> ---
+>
+> ## 🧠 PROMPT ENGINEERING SPECIFICATION
+>
+> Every AI call must include:
+>
+> * A fixed system role
+> * Domain restrictions
+> * Injected session memory
+> * Output schema (JSON only)
+>
+> AI responses must NEVER be free-form text.
+>
+> ---
+>
+> ## 📂 DELIVERABLES
+>
+> Generate:
+>
+> 1. Backend file structure
+> 2. Flask API endpoints with code
+> 3. Firestore data models
+> 4. Gemini prompt templates
+> 5. Frontend component structure
+> 6. Example API requests/responses
+> 7. Security & scalability notes
+>
+> ---
+>
+> ## 🚫 RESTRICTIONS
+>
+> * No ChatGPT-style generic conversation
+> * No unstructured outputs
+> * No hard-coded logic
+> * No unnecessary UI complexity
+>
+> ---
+>
+> ## 🏁 OUTPUT FORMAT
+>
+> Present output in **clearly separated sections** with headers and code blocks.
+>
+> Prioritize **clarity, modularity, and hackathon feasibility**.
 
-**Prerequisites:**  Node.js
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Just say 👍
