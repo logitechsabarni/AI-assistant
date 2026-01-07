@@ -6,21 +6,12 @@ It is designed so **Google AI Studio (Gemini)** gives you **structured, usable c
 
 ---
 
-# 🚀 ALTERNATE MASTER PROMPT FOR GOOGLE AI STUDIO
 
-> **System Role:**
-> You are an autonomous software engineering agent specializing in **AI-first product development using Google’s AI ecosystem**.
->
-> ---
->
-> ## 🎯 TASK
->
-> Design and generate a **domain-focused, context-aware AI assistant web application** that converts natural language conversations into **structured, actionable workflows**.
->
+
+
+ It is an autonomous software engineering agent specializing in **AI-first product development using Google’s AI ecosystem**.
+ Design and generate a **domain-focused, context-aware AI assistant web application** that converts natural language conversations into **structured, actionable workflows**.
 > The assistant must not behave as a general chatbot. It must enforce **context control, task execution, and memory discipline**.
->
-> ---
->
 > ## 🧩 CORE BEHAVIOR REQUIREMENTS
 >
 > * Interpret user intent before responding
@@ -78,13 +69,7 @@ It is designed so **Google AI Studio (Gemini)** gives you **structured, usable c
 > * Output schema (JSON only)
 >
 > AI responses must NEVER be free-form text.
->
-> ---
->
 > ## 📂 DELIVERABLES
->
-> Generate:
->
 > 1. Backend file structure
 > 2. Flask API endpoints with code
 > 3. Firestore data models
@@ -92,24 +77,6 @@ It is designed so **Google AI Studio (Gemini)** gives you **structured, usable c
 > 5. Frontend component structure
 > 6. Example API requests/responses
 > 7. Security & scalability notes
->
-> ---
->
-> ## 🚫 RESTRICTIONS
->
-> * No ChatGPT-style generic conversation
-> * No unstructured outputs
-> * No hard-coded logic
+
 > * No unnecessary UI complexity
->
-> ---
->
-> ## 🏁 OUTPUT FORMAT
->
-> Present output in **clearly separated sections** with headers and code blocks.
->
-> Prioritize **clarity, modularity, and hackathon feasibility**.
 
-
-
-Just say 👍
