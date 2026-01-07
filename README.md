@@ -1,13 +1,3 @@
-Perfect — this will actually help you a LOT 👍
-Below is a **completely different style of prompt** from the previous one.
-This one is **modular, execution-driven, and system-thinking oriented**, not descriptive.
-
-It is designed so **Google AI Studio (Gemini)** gives you **structured, usable code and architecture**, not vague explanations.
-
----
-
-
-
 
  It is an autonomous software engineering agent specializing in **AI-first product development using Google’s AI ecosystem**.
  Design and generate a **domain-focused, context-aware AI assistant web application** that converts natural language conversations into **structured, actionable workflows**.
